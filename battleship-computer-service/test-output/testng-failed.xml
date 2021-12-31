@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.odigeo.interview.coding.battleshipcomputerservice.service.BattleshipClientTest">
+        <methods>
+          <include name="testNewInstance"/>
+          <include name="init"/>
+          <include name="testFireOnBadRequest"/>
+          <include name="testFire"/>
+          <include name="testJoinGameOnBadRequest"/>
+          <include name="testDeployShips"/>
+          <include name="testDeployShipsOnBadRequest"/>
+          <include name="testJoinGame"/>
+        </methods>
+      </class> <!-- com.odigeo.interview.coding.battleshipcomputerservice.service.BattleshipClientTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
